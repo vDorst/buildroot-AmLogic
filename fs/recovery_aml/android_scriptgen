@@ -235,7 +235,7 @@ def main():
 	  f.write('       write_raw_image("/tmp/aml_logo.img", "logo"),\n')
 	f.write('       delete("/tmp/aml_logo.img"));\n')
         f.write('show_progress(0.180000, 20);\n')
-        f.write('assert(package_extract_file("uImage-2.6.34", "/tmp/boot.img"),\n')
+        f.write('assert(package_extract_file("uImage-3.0.8", "/tmp/boot.img"),\n')
         f.write('    write_raw_image("/tmp/boot.img", "boot"),\n')
         f.write('    delete("/tmp/boot.img"));\n')
         f.write('show_progress(0.020000, 0);\n')
