@@ -291,7 +291,7 @@ BR2_DEPENDS_DIR=$(BUILD_DIR)/buildroot-config
 
 ifeq ($(BR2_CCACHE),y)
 CCACHE:=$(HOST_DIR)/usr/bin/ccache
-CCACHE_CACHE_DIR=$(HOME)/.buildroot-ccache
+CCACHE_CACHE_DIR=/media/Backup-HD/dev/Mygica_A11/.buildroot-ccache
 HOSTCC  := $(CCACHE) $(HOSTCC)
 HOSTCXX := $(CCACHE) $(HOSTCXX)
 endif
