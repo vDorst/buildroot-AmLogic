@@ -159,7 +159,7 @@ if [ "X$1" = "Xstart" ]; then
 
   # Make sure temp directory is created
   if [ ! -d "/tmp/userdata/xios/root/.xbmc/temp" ]; then
-    mkdir -p /tmp/userdata/xios/root/.xbmc/temp
+      mkdir -p /tmp/userdata/xios/root/.xbmc/temp
   fi
 
   # setup root dir
